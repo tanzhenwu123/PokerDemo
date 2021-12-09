@@ -1,7 +1,5 @@
 import { Color, Mark } from './enums';
 
-export type Deck = Card[]
-
 export interface Card{
     getString():string
 }
